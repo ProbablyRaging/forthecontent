@@ -1,6 +1,6 @@
 function smoothRedirect(location) {
     console.log(top.location.pathname.split('/'));
-    if (top.location.pathname.split('/')[1] === location && top.location.pathname.split('/').length < 3) return window.scrollTo(0, 0);
+    if (top.location.pathname.split('/')[1] === location && top.location.pathname.split('/').length < 2) return window.scrollTo(0, 0);
     $('.menu-item').click(function () {
         $('body').css('background-color', 'var(--bg)');
         $('.loader').animate({
