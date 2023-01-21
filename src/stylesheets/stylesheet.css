@@ -895,7 +895,7 @@ html.is-animating .page--transition-fade {
 }
 
 .nav__brand {
-    height: 50px;
+    height: 32px;
 }
 
 @media screen and (max-width: 960px) {
