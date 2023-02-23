@@ -10,6 +10,5 @@ $(function () {
         if (!$(this).next().is(":visible")) {
             $(this).next().slideDown(150);
         }
-
     });
 });
